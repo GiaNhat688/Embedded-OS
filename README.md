@@ -1,8 +1,8 @@
-# ** TUẦN 3: BUILD ROOT FILESYSTEM VỚI BUSYBOX**
+#  TUẦN 3: BUILD ROOT FILESYSTEM VỚI BUSYBOX
 
 ---
 
-**A. MỤC TIÊU**
+# A. MỤC TIÊU
 
 - Biên dịch thành công RootFS sử dụng BusyBox
 
@@ -14,11 +14,11 @@
 
 ---
 
-**B. THỰC HIỆN**
+# B. THỰC HIỆN
 
 ---
 
-**BÀI 1: BIÊN DỊCH ROOTFS VỚI BUSYBOX**
+## BÀI 1: BIÊN DỊCH ROOTFS VỚI BUSYBOX
 
 ---
 
@@ -53,7 +53,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- CONFIG_PREFIX=../rootfs install
 ```
 ---
 
-**BÀI 2: TẠO CẤU TRÚC ROOTFS CHUẨN **
+## BÀI 2: TẠO CẤU TRÚC ROOTFS CHUẨN 
 
 ---
 
@@ -87,7 +87,7 @@ chmod +x init
 ```
 ---
 
-**BÀI 3: ĐƯA FILE BUSYBOX VÀO THẺ NHỚ**
+## BÀI 3: ĐƯA FILE BUSYBOX VÀO THẺ NHỚ
 
 ```
 sudo cp -r rootfs/* /media/sdcard/
@@ -96,7 +96,7 @@ sync
 
 ---
 
-**BÀI 4: LIÊN KẾT KERNEL VỚI ROOTFS QUA BOOTARGS**
+## BÀI 4: LIÊN KẾT KERNEL VỚI ROOTFS QUA BOOTARGS
 
 ---
 
@@ -108,7 +108,7 @@ boot
 
 ---
 
-**KHỞI ĐỘNG THÀNH CÔNG**
+## KHỞI ĐỘNG THÀNH CÔNG
 
 ```
 Hello RootFS
@@ -117,7 +117,7 @@ Hello RootFS
 
 ---
 
-**THỬ LỆNH**
+## THỬ LỆNH
 
 ```
 ls
