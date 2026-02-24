@@ -1,6 +1,5 @@
 # ** TUẦN 3: BUILD ROOT FILESYSTEM VỚI BUSYBOX**
 
-
 ---
 
 **A. MỤC TIÊU**
