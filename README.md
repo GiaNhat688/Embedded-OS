@@ -13,7 +13,7 @@
 
 - Khởi động thành công RootFS. Có thể gõ một số lệnh như: ls, cat, echo...
 
----
+--
 
 **B. THỰC HIỆN**
 
