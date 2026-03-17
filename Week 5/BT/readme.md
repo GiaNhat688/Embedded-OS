@@ -1,4 +1,4 @@
-# A. Mục tiêu
+### A. Mục tiêu
 
 - Viết 01 chương trình C/C++ có sử dụng thư viện cJSON
 
@@ -10,7 +10,7 @@ Bài 1 và Bài 2 vào Buildroot có ràng buộc phụ thuộc.
 
 ---
 
-# B. Thực hiện chi tiết
+### B. Thực hiện chi tiết
 
 ---
 
