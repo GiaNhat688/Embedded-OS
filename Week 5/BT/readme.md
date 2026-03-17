@@ -8,7 +8,11 @@ sử dụng thư viện đó
 - Xây dựng chương trình có phụ thuộc vào cả 2 thư viện ở
 Bài 1 và Bài 2 vào Buildroot có ràng buộc phụ thuộc.
 
+---
+
 # B. Thực hiện chi tiết
+
+---
 
 **I. Biên dịch ứng dụng với thư viện đã có**
 
@@ -230,6 +234,8 @@ Kiểm tra bằng lệnh ls -lh và readelf -d:
 ```
 Nhận xét: File app_dynamic rất nhẹ (7.8K) nhưng phụ thuộc vào libmylib.so. File app_static nặng hơn (507K) nhưng chạy độc lập.
 ```
+
+---
 
 **III. Bài 3: Tích hợp ứng dụng và thư viện vào Buildroot**
 
